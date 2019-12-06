@@ -1,0 +1,81 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+a:hover {
+    color: #F90;
+}
+
+blockquote {
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 30px;
+    border: none;
+}
+
+h1 {
+    color: #F90;
+}
+
+h4 {
+    color: #F90;
+    font-weight: 200;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+@media screen and (max-width: 500px)
+/* Mobile */
+
+{
+    .carousel-inner>.item>img {
+        height: 100% !important;
+        max-width: none !important;
+        width: auto !important;
+        position: relative !important;
+        left: -50% !important;
+    }
+    .carousel h1 {
+        font-size: 40px !important;
+        margin-top: 0;
+    }
+    .carousel h2 {
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (min-width: 501px)and (max-width: 700px)
+/* Tablet */
+
+{
+    .carousel-inner>.item>img {
+        height: 100% !important;
+        max-width: none !important;
+        width: auto !important;
+        position: relative !important;
+        left: -50% !important;
+        background: repeat-x;
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, .1) 30%, rgba(0, 0, 0, .75) 100%);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .d-none h1 {}
+}
+
+.my-footer {
+    border-top: 1px solid #eee;
+    border-color: rgba(0, 0, 0, .075);
+    color: #bbb;
+}
+
+.my-footer .my-footer-social {
+    font-size: 20px;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
